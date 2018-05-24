@@ -75,6 +75,6 @@ app.get('/bad', (req, res) => {
 })
 
 // Listener
-app.listen(7000, () => {
+app.listen(port, () => {
   console.log(`Server up on port ${port}!`);
 });
